@@ -1,0 +1,17 @@
+name: geoflutterfire_new
+description: GeoFlutterFire is an open-source library that allows you to store and query firestore documents based on their geographic location.
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=1.12.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cloud_firestore: ^4.13.0
+  rxdart: ^0.28.0
+  flutter_lints: ^3.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
